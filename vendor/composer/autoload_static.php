@@ -10,6 +10,7 @@ class ComposerStaticInitd8238a93185320a1bfcbbfb0e5bc1679
         'A' => 
         array (
             'App\\src\\' => 8,
+            'App\\config\\' => 11,
         ),
     );
 
@@ -17,6 +18,10 @@ class ComposerStaticInitd8238a93185320a1bfcbbfb0e5bc1679
         'App\\src\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'App\\config\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/config',
         ),
     );
 
