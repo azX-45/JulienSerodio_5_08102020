@@ -1,7 +1,6 @@
 <?php $this->title = 'Administration'; ?>
 <div class="card shadow bg-light mb-3">
   <h1>Administration</h1>
-
   <?= $this->session->show('add_article'); ?>
   <?= $this->session->show('edit_article'); ?>
   <?= $this->session->show('delete_article'); ?>
@@ -29,8 +28,8 @@
         <td><?= ($article->getAuthor()); ?></td>
         <td>Créé le : <?= htmlspecialchars($article->getCreatedAt()); ?></td>
         <td>
-          <a href="../public/index.php?route=editArticle&articleId=<?= $article->getId(); ?>">Modifier</a>
-          <a href="../public/index.php?route=deleteArticle&articleId=<?= $article->getId(); ?>">Supprimer</a>
+          <a href="../public/index.php?route=editArticle&articleId=<?= $article->getId(); ?>"><button type="button" class="btn btn-outline-info">Modifier</button></a>
+          <a href="../public/index.php?route=deleteArticle&articleId=<?= $article->getId(); ?>"><button type="button" class="btn btn-danger">Supprimer</button></a>
         </td>
       </tr>
     <?php
