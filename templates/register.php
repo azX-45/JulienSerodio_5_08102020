@@ -1,7 +1,6 @@
 <?php $this->title = "Inscription"; ?>
+<div class="card shadow bg-light mb-3 text-center">
 <h1>Inscription</h1>
-
-<div>
     <form method="post" action="../public/index.php?route=register">
         <label for="pseudo">Pseudo</label><br>
         <input type="text" id="pseudo" name="pseudo" value="<?= isset($post) ? htmlspecialchars($post->get('pseudo')): ''; ?>"><br>

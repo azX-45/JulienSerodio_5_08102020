@@ -2,9 +2,9 @@
 <h1>Mon blog</h1>
 <p>En construction</p>
 <div>
-    <h2><?= htmlspecialchars($article->getTitle());?></h2>
-    <p><?= htmlspecialchars($article->getContent());?></p>
-    <p><?= htmlspecialchars($article->getAuthor());?></p>
+    <h2><?= ($article->getTitle());?></h2>
+    <p><?= ($article->getContent());?></p>
+    <p><?= ($article->getAuthor());?></p>
     <p>Créé le : <?= htmlspecialchars($article->getCreatedAt());?></p>
 </div>
 <br>
