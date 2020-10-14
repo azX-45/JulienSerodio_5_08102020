@@ -1,8 +1,9 @@
 <?php $this->title = "Connexion"; ?>
-<h1>Espace de connexion</h1>
+
 
 <?= $this->session->show('error_login'); ?>
-<div>
+<div class="card shadow bg-light mb-3 text-center">
+<h1>Espace de connexion</h1>
     <form method="post" action="../public/index.php?route=login">
         <label for="pseudo">Pseudo</label><br>
         <input type="text" id="pseudo" name="pseudo" value="<?= isset($post) ? htmlspecialchars($post->get('pseudo')): ''; ?>"><br>

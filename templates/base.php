@@ -16,7 +16,7 @@
 </head>
 <body>
     <header class="bloc-page">
-        <nav id="navbar-example2" class="navbar navbar-expand-md navbar-grey bg-grey fixed-top">
+        <nav id="navbar-example2" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand text-white text-uppercase" href="/">Blog Fish and tips</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
@@ -24,17 +24,22 @@
                     <li class="nav-item">
                         <a class="nav-link text-white text-uppercase" href="../public/index.php">Accueil</a>
                     </li>
+                    
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle nav-link text-white text-uppercase" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connexion</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item nav-link text-black text-uppercase" href="../public/index.php?route=profile">Profil</a>
-                            <a class="dropdown-item nav-link text-black text-uppercase" href="../public/index.php?route=administration">Administration</i></a>
-                            <a class="dropdown-item nav-link text-black text-uppercase" href="../public/index.php?route=register">Inscription</a>
-                            <a class="dropdown-item nav-link text-black text-uppercase" href="../public/index.php?route=login">Connexion</a>
+                            
+                            <a class="dropdown-item nav-link text-black text-uppercase" href="../public/index.php?route=register">Inscription</a></li>
+                            <li class="nav-item">
+                    <a class="nav-link text-white text-uppercase" href="../public/index.php?route=administration">Administration</a>
+                    </li>       
                     <li class="nav-item">
                         <a class="nav-link text-white text-uppercase" href="../public/index.php?route=logout"><i class="fas fa-sign-out-alt"></i></a>
                     </li>
                 </ul>
+            </div>
             </div>
         </nav>
     </header>

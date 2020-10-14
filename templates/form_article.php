@@ -12,3 +12,10 @@ $submit = $route === 'addArticle' ? 'Envoyer' : 'Mettre à jour';
     <?= isset($errors['content']) ? $errors['content'] : ''; ?>
     <input type="submit" value="<?= $submit; ?>" id="submit" name="submit">
 </form>
+<script src="../node_modules/tinymce/tinymce.min.js"></script>
+<script>
+  tinymce.init({
+    selector: 'textarea',
+    language: 'fr_FR'
+  });
+</script>

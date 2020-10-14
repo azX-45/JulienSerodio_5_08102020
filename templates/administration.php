@@ -1,5 +1,4 @@
 <?php $this->title = 'Administration'; ?>
-
 <div class="card shadow bg-light mb-3">
   <h1>Administration</h1>
 
