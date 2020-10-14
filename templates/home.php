@@ -1,7 +1,14 @@
 <?php $this->title = 'Accueil'; ?>
-
-<h1>Mon blog</h1>
-<p>En construction</p>
+<img src="img/peche.jpg">
+<section class="homeheader ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center ">
+                <h1 class="main-title text-center text-white font-italic">Pêche et astuces</h1>
+                <h2 class="text-center text-white font-italic">en tout genre</h2>
+            </div>
+        </div>
+    </div>
 <?= $this->session->show('add_article'); ?>
 <?= $this->session->show('edit_article'); ?>
 <?= $this->session->show('delete_article'); ?>
@@ -15,17 +22,15 @@
 <?php
 if ($this->session->get('pseudo')) {
     ?>
-    <a href="../public/index.php?route=logout">Déconnexion</a>
-    <a href="../public/index.php?route=profile">Profil</a>
+    <a href="../public/index.php?route=logout"></a>
+    <a href="../public/index.php?route=profile"></a>
     <?php if($this->session->get('role') === 'admin') { ?>
         <a href="../public/index.php?route=administration">Administration</a>
     <?php } ?>
-    <a href="../public/index.php?route=addArticle">Nouvel article</a>
+    <a href="../public/index.php?route=addArticle"></a>
     <?php
 } else {
     ?>
-    <a href="../public/index.php?route=register">Inscription</a>
-    <a href="../public/index.php?route=login">Connexion</a>
     <?php
 }
 ?>

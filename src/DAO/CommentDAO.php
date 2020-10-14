@@ -42,7 +42,7 @@ class CommentDAO extends DAO
         $sql = 'UPDATE comment SET flag = ? WHERE id = ?';
         $this->createQuery($sql, [1, $commentId]);
     }
-    
+
     public function unflagComment($commentId)
     {
         $sql = 'UPDATE comment SET flag = ? WHERE id = ?';
