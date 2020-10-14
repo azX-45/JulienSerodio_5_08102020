@@ -1,6 +1,6 @@
 <?php $this->title = 'Article'; ?>
-<h1>Mon blog</h1>
-<p>En construction</p>
+<h1>Article</h1>
+
 <div>
     <h2><?= ($article->getTitle());?></h2>
     <p><?= ($article->getContent());?></p>
