@@ -1,5 +1,5 @@
 <?php $this->title = 'Mon profil'; ?>
-<h1>Profil</h1>
+<h1>Profil de l'utilisateur</h1>
 
 <?= $this->session->show('update_password'); ?>
 <div>
@@ -9,4 +9,4 @@
     <a href="../public/index.php?route=deleteAccount">Supprimer mon compte</a>
 </div>
 <br>
-<a href="../public/index.php">Retour à l'accueil</a>
+<a href="../public/index.php"><button type="button" class="btn btn-info">Retour à l'accueil</button></a>

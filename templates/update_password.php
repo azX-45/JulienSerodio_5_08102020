@@ -1,6 +1,5 @@
 <?php $this->title = 'Modifier mot mot de passe'; ?>
-<h1>Mon blog</h1>
-<p>En construction</p>
+<h1>Modification du mot de passe</h1>
 <div>
     <p>Le mot de passe de <?= $this->session->get('pseudo'); ?> sera modifié</p>
     <form method="post" action="../public/index.php?route=updatePassword">
@@ -10,4 +9,4 @@
     </form>
 </div>
 <br>
-<a href="../public/index.php">Retour à l'accueil</a>
+<a href="../public/index.php"><button type="button" class="btn btn-info">Retour à l'accueil</button></a>
