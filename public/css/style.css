@@ -15,7 +15,7 @@ img {
 }
 
 body {
-  background-color: rgb(229, 250, 248);
+  background-image: url(../img/fond.jpg);
 }
 
 .box-container {

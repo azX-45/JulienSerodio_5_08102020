@@ -18,7 +18,7 @@
     <header class="bloc-page">
         <nav id="navbar-example2" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand text-white text-uppercase" href="/">Blog Fish and tips</a>
+                <a class="navbar-brand text-white text-uppercase" href="../public/index.php">Blog Fish and tips</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
                 <ul class="nav collapse navbar-collapse flex-sm-column flex-md-row justify-content-md-end align-items-sm-start" id="navbarToggler">
                     <li class="nav-item">
