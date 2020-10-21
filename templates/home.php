@@ -1,14 +1,34 @@
 <?php $this->title = 'Accueil'; ?>
 <img src="img/peche.jpg">
 <section class="homeheader ">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center ">
-                <h1 class="main-title text-center text-white font-italic">Pêche et astuces</h1>
-                <h2 class="text-center text-white font-italic">en tout genre</h2>
+<div class="col-lg-12 text-center ">
+                <h1 class="main-title text-center text-white font-italic">Pêche du carnassier</h1>
+                <h2 class="text-center text-white font-italic"> Astuce en tout genre</h2>
             </div>
+    <div class="container">
+      <div class="d-flex justify-content-center mb-3">
+        <div class="col-12 col-sm-6 my-3">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <button type="submit" class="btn btn-info btn-block">
+              Rechercher
+            </button>
+          </form>
         </div>
+        <div class="col-12 col-sm-6 my-3">
+          <div class="box-container">
+            <div id="city" class="box"></div>
+            <div id="temp" class="box"></div>
+            <div id="humidity" class="box"></div>
+            <div id="wind" class="box"></div>
+          </div>
+        </div>
+      </div>
     </div>
+    <footer></footer>
+    <script src="js/app.js"></script>
 <?= $this->session->show('add_article'); ?>
 <?= $this->session->show('edit_article'); ?>
 <?= $this->session->show('delete_article'); ?>
